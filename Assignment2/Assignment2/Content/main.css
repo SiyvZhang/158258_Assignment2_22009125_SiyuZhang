@@ -1,0 +1,87 @@
+﻿.all {
+    background-image: url("/images/Contact_back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.contect_h1 h1 {
+    padding-top: 10px;
+    margin-left: 100px;
+    background-color: ivory;
+    color: #11264f;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.information {
+    width: 90%;
+    text-align: center;
+    color: #11264f;
+    padding: 10px;
+    margin-left: 60px;
+    margin-top: 20px;
+    height: 370px;
+    align-items: center;
+}
+
+    .information h1 {
+        margin-left: 100px;
+        padding-top: 10px;
+        color: #11264f;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .information a {
+        color: #11264f;
+       
+    }
+
+        .information a:hover {
+            text-decoration: underline;
+            
+            color:purple;
+        }
+
+.big {  
+  font-size: 20px;  
+  transition: font-size 0.5s;  
+}  
+  
+.big:hover {  
+  font-size: 25px;  
+}
+
+
+.where_content {
+    display: flex;
+    flex-direction: row;
+    padding:30px;
+}
+
+.where h1 {
+    margin-left: 100px;
+    margin-top: 0;
+    color: #11264f;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.where_p {
+    float: left;
+    width: 40%;
+    margin-left: 80px;
+}
+
+.map {
+    float:right;
+    height: 200px;
+    width: 40%;
+    margin-left:10px;
+}

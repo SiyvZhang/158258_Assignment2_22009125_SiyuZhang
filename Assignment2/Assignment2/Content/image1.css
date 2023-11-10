@@ -1,0 +1,50 @@
+﻿.imgBox {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+}
+
+    .imgBox img {
+        width: 100%;
+        height: 600px;
+        margin: 0 auto;
+        transition: opacity 1s ease-in-out;
+        object-fit: cover;
+    }
+
+.img-slide img-fade-in img1 {
+    height: auto;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.img-slide img-fade-in img2 {
+    display: none;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.img-slide img-fade-in img3 {
+    display: none;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.img-fade-in {
+    animation: fade-in 2s ease-in-out;
+}

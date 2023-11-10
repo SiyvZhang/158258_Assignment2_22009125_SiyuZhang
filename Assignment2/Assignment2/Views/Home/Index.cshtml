@@ -1,0 +1,106 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+
+    <div class="imgBox">
+        <img class="img-slide img-fade-in img1" src="~/images/slideimage1.jpg" alt="1">
+        <img class="img-slide img-fade-in img2" src="~/images/slideimage2.jpg" alt="2">
+        <img class="img-slide img-fade-in img3" src="~/images/slideimage3.jpg" alt="3">
+        <link href="@Url.Content("~/Content/image1.css")" rel="stylesheet" type="text/css" />
+        <link href="@Url.Content("~/Scripts/image1.js")" rel="javascript" type="text/javascript" />
+    </div>
+
+
+    <div class="geolocation-container">
+        <link href="@Url.Content("~/Content/geolocation-container.css")" rel="stylesheet" type="text/css" />
+        <h3 class="headsettings">Enjoy Life, Enjoy Food</h3>
+        <link href="@Url.Content("~/Content/headsettings.css")" rel="stylesheet" type="text/css" />
+        <p class="p1container">
+            Have you recently needed a low-calorie diet for fitness?<br>
+            Are you a sweet tooth?<br>
+            Would you be happy to eat staple food?<br>
+            Are you tired of shopping and looking for a place to stop for a drink?<br>
+            Leisure provides staple food, snacks, light food, dessert and various flavor drinks
+            to meet your different needs. <br>
+            You can even bring your children to eat at Leisure,
+            as we also offer children's meals.<br><br>
+            @Html.ActionLink("View our Food", "About", "Home", null, new { @class = "button-style" })
+
+        </p>
+        <link href="@Url.Content("~/Content/p1container.css")" rel="stylesheet" type="text/css" />
+        <div class="bodyImg image-container">
+            <img class="img4" src="~/images/homeMenu1.jpg" alt="4">
+            <img class="img5" src="~/images/homeMenu2.jpg" alt="5">
+            <img class="img6" src="~/images/homeMenu3.jpg" alt="6">
+            <img class="img7" src="~/images/homeMenu4.jpg" alt="7">
+            <link href="@Url.Content("~/Content/image2.css")" rel="stylesheet" type="text/css" />
+        </div>
+    </div>
+
+    <div class="environment">
+        <link href="@Url.Content("~/Content/geolocation-container.css")" rel="stylesheet" type="text/css" />
+        <h3 class="headsettings">Environment</h3>
+        
+        <div class="environment_content">
+            <video controls="controls" width="600">
+                <source src="~/video/environment.mp4" type="video/mp4">
+            </video>
+            <p>
+                Leisure is located in the center of the business district.
+                It is the perfect place to rest when you feel tired from
+                shopping. The restaurant offers a variety of meals in an
+                elegant environment. If you are working out or have small
+                children with you, don't worry. Leisure has prepared light
+                meals and children's meals for you. Leisure can meet your
+                various needs!
+            </p>
+        </div>
+    </div>
+
+    <div class="about">
+        <link href="@Url.Content("~/Content/geolocation-container.css")" rel="stylesheet" type="text/css" />
+        <h3 class="headsettings">Enjoy Your Leisure Time at Leisure</h3>
+        <div class="bodyImg2">
+            <img src="~/images/home_about1.jpg" alt="home_about1.jpg">
+            <img src="~/images/home_about2.jpg" alt="home_about2.jpg">
+            <img src="~/images/home_about3.jpg" alt="home_about3.jpg">
+            <img src="~/images/home_about4.jpg" alt="home_about4.jpg">
+            <img src="~/images/home_about5.jpg" alt="home_about5.jpg">
+            <img src="~/images/home_about6.jpg" alt="home_about6.jpg">
+            <link href="@Url.Content("~/Content/image2.css")" rel="stylesheet" type="text/css" />
+            <link href="@Url.Content("~/Scripts/image2.js")" rel="javascript" type="text/javascript" />
+        </div>
+    </div>
+    <div class="footer">
+        <div class="contact">
+            <h2>CONTACT US</h2>
+            <ul class="contact_information">
+                <li class="phone">Phone: <a href="tel:123-456-7890">123-456-7890</a></li>
+                <li class="email">E-mail: <a href="mailto:12345678910@qq.com">12345678910@qq.com</a></li>
+                <li class="address">
+                    Address: 92Kensington Park <br>
+                    Rd, Notting Hill, <br>
+                    London W11 2PN
+                </li>
+            </ul>
+            <link href="@Url.Content("~/Content/contact.css")" rel="stylesheet" type="text/css" />
+        </div>
+
+        <div class="hours">
+            <h2>HOURS</h2>
+            <ul class="opening_hours">
+                <li>
+                    <div>Sunday, Tuesday, Wednesday :Dinner 5 pm - 10 pm</div>
+                    <div>Thursday - Saturday :Dinner 5 pm - 11 pm</div>
+                    <div>Weekday Lunch :Tues - Fri, 12 pm - 4 pm</div>
+                    <div>Weekday Branch :Sat & Sun, 10 am - 3 am</div>
+                </li>
+            </ul>
+            <link href="@Url.Content("~/Content/hours.css")" rel="stylesheet" type="text/css" />
+        </div>
+        <link href="@Url.Content("~/Content/footer.css")" rel="stylesheet" type="text/css" />
+    </div>
+</main>
+

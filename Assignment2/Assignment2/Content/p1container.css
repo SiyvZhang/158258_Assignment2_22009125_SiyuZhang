@@ -1,0 +1,20 @@
+﻿.p1container {
+    width: 45%;
+    float: left;
+    position: relative;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-left: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 18px;
+    color: ivory;
+    background-color: #11264f;
+    height: 350px;
+}
+
+

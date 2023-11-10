@@ -1,0 +1,23 @@
+﻿.footer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-color: #11264f;
+    clear: both;
+    bottom: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact,
+.hours {
+    flex: 1;
+    margin-right: 20px; /* 调整间距 */
+}
+
+/* 去除列表项目前面的空白 */
+.contact_information li,
+.opening_hours li {
+    list-style-type: none;
+}

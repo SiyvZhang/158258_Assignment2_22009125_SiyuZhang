@@ -1,0 +1,50 @@
+﻿
+.navbar {
+    color: white;
+    background-color: rgb(17,38,79);
+    font-family: 'MyCustomFont2', sans-serif; /* 引入新的字体 */
+
+    height: 70px;
+    position: relative;
+    top: 0;
+    z-index: 999;
+}
+
+.nav-link {
+    height: 60px;
+    display: block;
+    text-decoration: none;
+    /*text-align:center;*/
+    color: ivory;
+    font-size: 28px;
+    padding: 1px 2px;
+    margin-right: 10px;
+    font-family: 'Times New Roman';
+}
+
+    .nav-link:hover {
+        background-color: ivory;
+        color: #11264f;
+        border-radius: 10px;
+    }
+
+.logo {
+    margin-left: 10px;
+    float: left;
+    height: 70px;
+    background-color: rgb(17,38,79);
+}
+
+.collapse navbar-collapse d-sm-inline-flex justify-content-between navbar ul li {
+    margin-left: 10px;
+    height: 50px;
+    list-style: none;
+    line-height: 50px;
+    font-size: 18px;
+    float: left;
+}
+
+@font-face {
+    font-family: "MyCustomFont2";
+    src: url("https://fd.aigei.com/src/fil/otf/61/616b212e466c48d3ada8653c7424fcb5.otf?download/Penumbra%E5%AD%97%E4%BD%93_%E7%88%B1%E7%BB%99%E7%BD%91_aigei_com.otf&e=1698268020&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:xaif3eVaeYaBr9sMj_K7Gg8X-Ds=");
+}

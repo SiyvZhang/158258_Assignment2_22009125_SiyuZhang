@@ -1,0 +1,25 @@
+﻿.geolocation-container {
+    position: relative;
+    padding:10px;
+    height: 480px;
+    width: 100%;
+    background: ivory;
+}
+
+.environment_content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color :ivory;
+}
+
+    .environment_content video {
+        
+        float: left;
+        margin-right: 20px;
+    }
+
+    .environment_content p {
+        width: 300px;
+        margin-left:20px;
+    }

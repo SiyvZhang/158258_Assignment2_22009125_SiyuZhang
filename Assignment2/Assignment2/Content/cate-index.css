@@ -1,0 +1,14 @@
+﻿.bg-image {
+    background-image: url("/images/contact.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.table-header {
+    width: 200px;
+}
+
+.table-row {
+    cursor: pointer;
+}

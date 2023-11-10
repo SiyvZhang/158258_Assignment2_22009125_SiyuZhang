@@ -1,0 +1,35 @@
+﻿
+
+.image-container {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+    .image-container img {
+        width: auto; 
+        height: auto; 
+        margin-top: 5px; /* 设置图片上方的间距 */
+        margin-bottom: 5px; /* 设置图片下方的间距 */
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+
+        .image-container img:hover {
+            transform: scale(1.2, 1.2);
+        }
+
+.bodyImg2 {
+    padding: 20px;
+    float: left;
+    width: 100%;
+    background-color: #11264f;
+    white-space: nowrap;
+    overflow: scroll;
+}
+
+    .bodyImg2 img {
+        margin: 10px;
+        border-radius: 10px;
+    }

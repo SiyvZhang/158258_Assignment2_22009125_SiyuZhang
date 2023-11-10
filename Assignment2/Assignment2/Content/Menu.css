@@ -1,0 +1,14 @@
+﻿.image-container {
+    display: flex;
+    align-items: center;
+}
+
+    .image-container img {
+        width: 100px;
+        height: 100px;
+    }
+
+.about_all {
+    background-color:ivory;
+}
+    
